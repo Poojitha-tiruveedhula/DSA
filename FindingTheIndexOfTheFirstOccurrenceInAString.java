@@ -18,11 +18,12 @@ if(haystack.charAt(i)==needle.charAt(0))
 if(haystack.substring(i,needle.length()+i).equals(needle))
 {
 return i;
-}}
-
-
 }
-return -1;}}
+}
+}
+return -1;
+}
+}
 
 
 
